@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/4k-gaming-background-bud9k5ffqi3r2ds9.jpg");
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(143, 15, 229);
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(239, 238, 241);
+
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
